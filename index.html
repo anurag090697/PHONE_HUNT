@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Hunt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="sytles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <header>
+          <nav>
+            <h2>Hot Gadgets</h2>
+            <button class="button-15" role="button">SIGN UP</button>
+          </nav>
+          <div class="headingText">
+            <h1>Apple Iphone 13 Pro Max</h1>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humou.
+            </p>
+            <button class="button-15" role="button">BUY NOW</button>
+          </div>
+        </header>
+        <div class="imgThree">
+          <img src="i phn.png" alt="" class="firstpic"/>
+          <img src="i phn.png" alt="" class="secondpic"/>
+          <img src="i phn.png" alt="" class="thirdpic"/>
+        </div>
+      </div>
+      <section class="phoneData">
+        
+        <div class="searchPhone">
+            <h1>Search Your Phone</h1>
+            <div>
+            <input type="text" placeholder="e.g. oppo, iphone, samsung" id="searchInput">
+            <button class="button-15" role="button" id="searchBtn">SEARCH</button></div>
+        </div>
+        <div id="displayPhones"></div>
+        <div class="morePage"><button class="button-15" role="button" id="showMorebtn">SHOW ALL</button></div>
+      </section>
+      <div id="moreDetails">
+        <dialog id="extraInfos">
+            <form action="" method="dialog">
+                <img src="" alt="" id="imgPhn">
+                <h2 id="detailName"></h2>
+                <h3 id="brandDetail"></h3>
+                <p id="specsDetail"></p>
+                <p id="detailsRelease"></p>
+                <button class="button-24">CLOSE</button>
+            </form>
+        </dialog>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
