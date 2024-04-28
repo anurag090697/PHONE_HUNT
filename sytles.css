@@ -8,7 +8,7 @@
   /* font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-style: normal;*/
-} 
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,7 @@ header {
   margin: 3% 0;
 }
 .headingText p {
-    color: #525252;
+  color: #525252;
   font-size: 20px;
   margin: 3% 0;
   font-weight: 600;
@@ -98,19 +98,18 @@ header {
     height: 100vh;
 } */
 
+.secondpic {
+  width: 26%;
+}
 .firstpic {
-  width: 300px;
+  width: 20%;
   margin-top: 2rem;
 }
-.thirdpic {
-  width: 300px;
-  margin-top: 2rem;
-}
-#displayPhones{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
+#displayPhones {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .onePhone {
   width: 400px;
@@ -124,80 +123,78 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.onePhone p{
-    color: grey;
+.onePhone p {
+  color: grey;
 }
-.searchPhone{
-    margin-top: -19rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+.searchPhone {
+  margin-top: -19rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
-.searchPhone h1{
-    font-size: 50px;
+.searchPhone h1 {
+  font-size: 50px;
 }
-.searchPhone div{
-    margin: 3rem auto;
-    display: flex;
-    gap: 20px;
+.searchPhone div {
+  margin: 3rem auto;
+  display: flex;
+  gap: 20px;
 }
-#searchInput{
-    width: 250px;
-    padding: 10px;
-    color: slategrey;
-    border-radius: 12px;
-    text-align: center;
-    font-size: 16px;
-    outline-color: #0062b1;
-    border: 1px solid rgb(0, 123, 255);
+#searchInput {
+  width: 250px;
+  padding: 10px;
+  color: slategrey;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  outline-color: #0062b1;
+  border: 1px solid rgb(0, 123, 255);
 }
-.morePage{
-    width: max-content;
-    margin: 1rem auto;
+.morePage {
+  width: max-content;
+  margin: 1rem auto;
 }
 #extraInfos {
-    width: 500px;
-    border-radius: 15px;
-    margin: auto;
-    overflow-y: scroll;
-    /* display: flex;
+  width: 500px;
+  border-radius: 15px;
+  margin: auto;
+  overflow-y: scroll;
+  /* display: flex;
     flex-direction: column;
     align-items: center; */
-    padding: 12px;
-    scrollbar-width: none;
-    text-align: center;
-    box-shadow: rgba(138, 138, 138, 0.4) 0px 2px 4px, rgba(146, 146, 146, 0.3) 0px 7px 13px -3px, rgba(171, 171, 171, 0.2) 0px -3px 0px inset;
-    border: none;
-    outline: none;
+  padding: 12px;
+  scrollbar-width: none;
+  text-align: center;
+  box-shadow: rgba(138, 138, 138, 0.4) 0px 2px 4px,
+    rgba(146, 146, 146, 0.3) 0px 7px 13px -3px,
+    rgba(171, 171, 171, 0.2) 0px -3px 0px inset;
+  border: none;
+  outline: none;
 }
-#extraInfos form{
-    gap: 17px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 16px;
-    color: #525252;
-    padding: 0 15px;
+#extraInfos form {
+  gap: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  color: #525252;
+  padding: 0 15px;
 }
-
-
 
 .button-24 {
-  background: #FF4742;
-  border: 1px solid #FF4742;
+  background: #ff4742;
+  border: 1px solid #ff4742;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
   font-size: 13px;
   font-weight: 700;
   line-height: 16px;
@@ -218,9 +215,27 @@ header {
 .button-24:active {
   background-color: initial;
   background-position: 0 0;
-  color: #FF4742;
+  color: #ff4742;
 }
 
 .button-24:active {
-  opacity: .5;
+  opacity: 0.5;
+}
+footer {
+  width: 100%;
+  background-color: #cde6f9;
+   padding: 6% 0;
+}
+footer div{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+footer img{
+    width: 150px;
+   
+}
+.icons{
+    font-size: 30px;
+    margin: 2% auto;
 }
